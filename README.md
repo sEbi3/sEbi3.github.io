@@ -1,7 +1,5 @@
 # sEbi3's Modification Website (sEbi3.github.io)
 
---------
-
 ## This website was built with:
 - HTML
 - CSS
