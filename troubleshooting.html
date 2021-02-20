@@ -1,0 +1,115 @@
+<!doctype html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="description" content="This is the offical website for sEbi3's Modifications.">
+    <meta name="keywords" content="sEbi3, LSPDFR, Discord, Discord Bot, Bot, GTA5, RDR2, Grand Theft Auto, Police, Mods, Plugins, RPH, RagePluginHook,">
+    <meta name="author" content="sEbi3">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css" type="text/css" />
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900" rel="stylesheet">
+    <link rel="shortcut icon" href="Images/favicon.jpg" />
+    <title>sEbi3 - Troubleshooting</title>
+  </head>
+
+  <body>
+  <nav class="navbar navbar-default navbar-expand-lg fixed-top custom-navbar">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="icon ion-md-menu"></span>
+    </button>
+    <a href="index.html"><img class="nav-link" src="images/logo.png" class="img-fluid nav-logo-desktop" draggable="false"></a>
+    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+      <div class="container">
+        <ul class="navbar-nav ml-auto nav-right" data-easing="easeInOutExpo" data-speed="1250" data-offset="65">
+          <li class="nav-item nav-custom-link">
+            <a class="nav-link" href="index.html"><i class="fas fa-home"></i> Home <i class="icon ion-ios-arrow-forward icon-mobile"></i></a>
+          </li>
+          <li class="nav-item nav-custom-link">
+            <a class="nav-link" href="downloads.html"><i class="fas fa-download"></i> Downloads <i class="icon ion-ios-arrow-forward icon-mobile"></i></a>
+          </li>
+          <li class="nav-item nav-custom-link">
+            <a class="nav-link" href="https://github.com/sEbi3" target="_blank"><i class="fab fa-github"></i> GitHub <i class="icon ion-ios-arrow-forward icon-mobile"></i></a>
+          </li>
+          <li class="nav-item nav-custom-link">
+            <a class="nav-link" href="https://discord.gg/4pnAXKC" target="_blank"><i class="fab fa-discord"></i> Discord <i class="icon ion-ios-arrow-forward icon-mobile"></i></a>
+          </li>
+          <li class="nav-item nav-custom-link">
+            <a class="nav-link" href="https://www.patreon.com/sEbi3" target="_blank"><i class="fab fa-patreon"></i> Patreon <i class="icon ion-ios-arrow-forward icon-mobile"></i></a>
+          </li>
+          <li class="nav-item nav-custom-link">
+            <div class="dropdown">
+              <a class="nav-link"><i class="fas fa-chevron-circle-down"></i> Documentation <i class="icon ion-ios-arrow-forward icon-mobile"></i></a>
+              <div class="dropdown-content">
+                <a href="https://sebi3.gitbook.io/ataribot/" target="_blank">AtariBot Wiki</a>
+                <a href="https://sebi3.gitbook.io/ataribot/wiki/frequently-asked-questions" target="_blank">AtariBot FAQ</a>
+                <a href="https://www.patreon.com/sEbi3" target="_blank">Early Access</a>
+                <a href="downloads.html">For Developers</a>
+                <a href="index.html">API</a>
+                <a href="troubleshooting.html">Troubleshooting</a>
+              </div>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <section id="AboutDownloadBox">
+    <div class="container">
+      <div class="row">
+        <div class="content-box">
+          <br><br><br>
+          <h2>Troubleshooting</h2>
+          <p>Here are known issues listed with solutions. If you need help, please have a look below for general soloutions.<br>If you have a problem which is not listed below, please join my discord for further help.</p>
+          <a href="https://discord.gg/4pnAXKC" target="_blank" class="btn btn-reg-info">Join on my discord <i style="color:white;" class="fas fa-arrow-circle-right"></i></a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="AboutDownloadBox2">
+    <div class="container">
+      <h2>UnitedCallouts</h2><br>
+      <p><b> I can't get inside a building, while I am playing a callout like "Burglary into an apartment". How can I fix that?</b><br>
+        If you can't get inside a building, you need to install "OpenAllInteriors", which is linked in the UC.ini.<br>
+        If you don't want to use it, set the callouts for OAI to "false". (They are set to false by default)</p><br><br>
+     <p><b> I am using CalloutManager and I can't start a callout like "Burglary into an apartment".  How can I fix that?</b><br>
+        If you can't start the callout you'll have to check the UnitedCallouts.ini. The callout might be set to "false".<br>
+        The CalloutManager is showing the callout in the game, but you can't play it until the callout is set to "true".</p><br><br>
+    <p><b>Assembly UnitedCallouts.dll (UnitedCallouts, Version=1.5.7.3, Culture=neutral, PublicKeyToken=null) does not have the required Plugin attribute.  How can I fix that?</b><br>
+        If you have this error in your log you installed UnitedCallout wrong. Make sure, that UnitedCallouts is in "GTA5/plugins/LSPDFR".<br>If you don't have a "LSPDFR" folder, create one.</p>
+   </div>
+  </section>
+
+  <section id="AboutDownloadBox">
+    <div class="container">
+      <h2>Simple Police Helper</h2>
+      <p><b> The menu is not working. What now?</b><br>
+        The most problem is, that you didn't install NativeUI correctly.<br>
+        Make sure, that the file is in GTA5/scripts and not in the main directory of GTA5.</p><br><br>
+     <p><b> How do I open the Simple Police Helper menu?</b><br>
+       You can open the menu with F5 by default.<br>
+      If you want, you can also change the key for your liking in the SPH.ini.</p>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6 col-xs-12">
+            <a href="https://github.com/sEbi3" target="_blank"><i class="fab fa-github"></i></a>
+            <a href="https://discord.gg/4pnAXKC" target="_blank"><i class="fab fa-discord"></i></a>
+            <a href="https://twitter.com/sEbi3Dev" target="_blank"><i class="fab fa-twitter"></i></a>
+            <a href="https://www.patreon.com/sEbi3" target="_blank"><i class="fab fa-patreon"></i></a>
+            <a href="https://steamcommunity.com/id/sEbi3" target="_blank"><i class="fab fa-steam"></i></a>
+          </div>
+          <div class="col-md-6 col-xs-12">
+            <small>Copyright &copy; sEbi3 2021</small>
+          </div>
+      </div>
+    </div>
+  </footer>
+  </body>
+</html>

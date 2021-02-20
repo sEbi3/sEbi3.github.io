@@ -91,7 +91,7 @@ section {
 }
 
 .nav-custom-link {
-	font-size: 16px;
+	font-size: 17px;
 	font-weight: 400;
 	letter-spacing: .05em;
 	margin-top: 5px;
@@ -144,6 +144,72 @@ section {
 	color: #ffffff;
 }
 
+.btn-download {
+	background-color: #46CB6B;
+	color: #ffffff;
+	letter-spacing: .1em;
+	margin-top: 25px;
+	display: inline-block;
+}
+
+.btn-download:hover {
+	background-color: #46CB6B;
+	color: #ffffff;
+}
+
+.btn-informationM {
+	background-color: #4790E3;
+	color: #ffffff;
+	letter-spacing: .1em;
+	margin-top: 25px;
+	display: inline-block;
+}
+
+.btn-informationM:hover {
+	background-color: #4790E3;
+	color: #ffffff;
+}
+
+.dropbtn {
+  background-color: #4CAF50;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown:hover .dropbtn {
+  background-color: #3e8e41;
+}
+
 .btn-reg-red {
 	background-color: #f96854;
 	color: #ffffff;
@@ -155,6 +221,20 @@ section {
 
 .btn-reg-red:hover {
 	background-color: #f96854;
+	color: #ffffff;
+}
+
+.btn-reg-info {
+	background-color: #4790E3;
+	color: #ffffff;
+	padding: 10px 25px;
+	letter-spacing: .1em;
+	margin-top: 25px;
+	display: inline-block;
+}
+
+.btn-reg-info:hover {
+	background-color: #4790E3;
 	color: #ffffff;
 }
 
@@ -174,7 +254,7 @@ section {
 }
 
 #HeaderBox {
-	background-image: url('images/HeaderWallpaper.png');
+	background-image: url('images/wallpaper.jpg');
 }
 
 #HeaderBox h1 {
@@ -202,6 +282,35 @@ section {
   letter-spacing: .05em;
 }
 
+#HeaderBoxForDownloads {
+	background-image: url('images/wallpaper2.jpg');
+}
+
+#HeaderBoxForDownloads h1 {
+	font-size: 50px;
+	font-weight: 300;
+	color: #FFFFFF;
+}
+
+#HeaderBoxForDownloads p {
+	font-size: 20px;
+  font-weight: 300;
+  color: #FFFFFF;
+}
+
+#HeaderBoxForDownloads small {
+	font-size: 14px;
+  font-weight: 300;
+  color: #FFFFFF;
+}
+
+#HeaderBoxForDownloads span {
+	font-weight: 400;
+  color: #0095f7;
+  text-transform: uppercase;
+  letter-spacing: .05em;
+}
+
 #AtariBotPreviewBox p {
   	font-size: 16.5px;
     font-weight: 300;
@@ -223,6 +332,127 @@ section {
 
 #PatreonBox {
 	background-color: #EFF1F0;
+}
+
+#AboutBox {
+	background-color: #EFF1F0;
+}
+
+.AboutBox-box {
+	background-color: #ffffff;
+	padding: 20px 20px;
+	border: 1px solid #F8F9FB;
+	border-radius: 6px;
+	box-shadow: 0 0 1px 0 rgba(0,12,32,0.04), 0 10px 16px 0 rgba(10,31,68,0.06);
+	margin-top: 30px;
+}
+
+.AboutBox-box h2 {
+	font-size: 50px;
+	font-weight: 300;
+	letter-spacing: .1em;
+	color: #0095f7;
+}
+
+.AboutBox-title-block {
+	max-width: 700px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 30px;
+	text-align: center;
+}
+
+.AboutBox-title-block p {
+	font-size: 18px;
+	font-weight: 300;
+	color: #8da2b5;
+	margin-bottom: 0px;
+}
+
+.AboutBox-box h2 {
+	font-size: 22px;
+	font-weight: 300;
+	letter-spacing: .1em;
+	color: #0095f7;
+}
+
+.AboutBox-box h6 {
+	font-size: 60px;
+	font-weight: 700;
+	color: #3a3f52;
+	margin-bottom: 0px;
+}
+
+.AboutBox-box p {
+	font-size: 15px;
+	margin-top: 15px;
+	padding: 0px;
+}
+
+#AboutDownloadBox p {
+  	font-size: 16.5px;
+    font-weight: 300;
+    color: #8da2b5;
+    margin-bottom: 0px;
+    padding: 0px;
+}
+
+#AboutDownloadBox span {
+	font-weight: 400;
+	color: #0095f7;
+	text-transform: uppercase;
+	letter-spacing: .05em;
+}
+
+#AboutDownloadBox small {
+	color: #8da2b5;
+	letter-spacing: .2em;
+}
+
+#AboutDownloadBox {
+	background-color: #EFF1F0;
+}
+
+#GalleryBox {
+}
+
+#AboutDownloadBox2 p {
+  	font-size: 16.5px;
+    font-weight: 300;
+    color: #8da2b5;
+    margin-bottom: 0px;
+    padding: 0px;
+}
+
+#AboutDownloadBox2 span {
+	font-weight: 400;
+	color: #0095f7;
+	text-transform: uppercase;
+	letter-spacing: .05em;
+}
+
+#AboutDownloadBox2 {
+}
+
+div.gallery {
+  margin: 5px;
+  border: 1px solid #ccc;
+  float: left;
+  width: 180px;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
 }
 
 .PatreonBox-box {

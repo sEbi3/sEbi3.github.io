@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css" type="text/css" />
     <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900" rel="stylesheet">
-    <link rel="shortcut icon" href="Images/favicon.png" />
+    <link rel="shortcut icon" href="Images/favicon.jpg" />
     <title>sEbi3 - Home</title>
   </head>
 
@@ -19,10 +19,9 @@
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
       <span class="icon ion-md-menu"></span>
     </button>
-    <img src="images/logo.png" class="img-fluid nav-logo-mobile">
+    <a href="index.html"><img class="nav-link" src="images/logo.png" class="img-fluid nav-logo-desktop" draggable="false"></a>
     <div class="collapse navbar-collapse" id="navbarNavDropdown">
       <div class="container">
-      	<img src="images/logo.png" class="img-fluid nav-logo-desktop">
         <ul class="navbar-nav ml-auto nav-right" data-easing="easeInOutExpo" data-speed="1250" data-offset="65">
           <li class="nav-item nav-custom-link">
             <a class="nav-link" href="index.html"><i class="fas fa-home"></i> Home <i class="icon ion-ios-arrow-forward icon-mobile"></i></a>
@@ -39,6 +38,19 @@
           <li class="nav-item nav-custom-link">
             <a class="nav-link" href="https://www.patreon.com/sEbi3" target="_blank"><i class="fab fa-patreon"></i> Patreon <i class="icon ion-ios-arrow-forward icon-mobile"></i></a>
           </li>
+          <li class="nav-item nav-custom-link">
+            <div class="dropdown">
+              <a class="nav-link"><i class="fas fa-chevron-circle-down"></i> Documentation <i class="icon ion-ios-arrow-forward icon-mobile"></i></a>
+              <div class="dropdown-content">
+                <a href="https://sebi3.gitbook.io/ataribot/" target="_blank">AtariBot Wiki</a>
+                <a href="https://sebi3.gitbook.io/ataribot/wiki/frequently-asked-questions" target="_blank">AtariBot FAQ</a>
+                <a href="https://www.patreon.com/sEbi3" target="_blank">Early Access</a>
+                <a href="downloads.html">For Developers</a>
+                <a href="index.html">API</a>
+                <a href="troubleshooting.html">Troubleshooting</a>
+              </div>
+            </div>
+          </li>
         </ul>
       </div>
     </div>
@@ -49,13 +61,23 @@
       <div class="row">
         <div class="col-md-7 content-box hero-content">
           <h1><b>sEbi3's Modifications</b></h1>
-          <p>Welcome to my website!<br>I am a Programmer, Game- and Web-Developer</p>
+          <p>Welcome to my website!<br>I am a Programmer, Game and Web Developer</p>
           <small>If you want to contact me, please use one of the options below in the footer.</small><br>
-          <a href="https://discord.gg/4pnAXKC" target="_blank" class="btn btn-regular">Join on my Discord</a>
-          <a href="downloads.html" class="btn btn-reg-red">Project Downloads</a>
         </div>
       </div>
     </div>
+  </section>
+
+  <section id="AboutBox">
+    <div class="container">
+      <div class="AboutBox-title-block">
+        <h2>About Me</h2>
+        <p>I'm sEbi3, an active game and web developer known for modifications of GTA V and LSPDFR. I'm also working on other projects such as a Discord bot and an upcoming horror game. I've always enjoyed creating and learning new things.</p><br><br>
+        <p><b>Skills:</b> C#, Java, HTML/CSS</p>
+        <p><b>Code editors:</b> Visual Studio, Visual Studio Code, Rider, Atom</p>
+        <a href="https://discord.gg/4pnAXKC" target="_blank" class="btn btn-green">Join on my Discord server <i style="color:white;" class="fas fa-arrow-circle-right"></i></a>
+        <a href="downloads.html" class="btn btn-reg-info">Check out my work <i style="color:white;" class="fas fa-arrow-circle-right"></i></a>
+      </div>
   </section>
 
   <section id="AtariBotPreviewBox">
@@ -67,11 +89,11 @@
             <p>AtariBot is a multi-purpose bot with many features for moderation, fun and administration.<br><br>
                The bot is going to get many updates and is always up to date for your server.</p>
             <a href="https://sebi3.gitbook.io/ataribot/" target="_blank" class="btn btn-regular">AtariBot Wiki</a>
-            <a href="https://sebi3.gitbook.io/ataribot/wiki/getting-started" target="_blank" class="btn btn-green">Getting Started</a>
+            <a href="https://sebi3.gitbook.io/ataribot/wiki/getting-started" target="_blank" class="btn btn-green">Getting Started <i style="color:white;" class="fas fa-arrow-circle-right"></i></a>
           </div>
         </div>
         <div class="col-md-5">
-            <img src="images/AtariBotPreview.png" class="img-fluid">
+            <img src="images/AtariBotPreview.png" class="img-fluid" draggable="false">
         </div>
       </div>
     </div>
@@ -117,11 +139,11 @@
           <br><br><br><br><br>
           <div class="title-block">
             <h2>Becoming a Patreon Supporter</h2>
-            <p>I created a patreon page for the ones, who want to support my work and future projects.
-               You'll have access to early versions, new content and more.</p>
+            <p>If you'd like to support my work, feel free to subscribe to me on Patreon.
+              In return, you'll have access to early versions of my releases, exclusive previews and more.</p>
           </div>
           <div class="text-center">
-            <a href="https://www.patreon.com/sEbi3" target="_blank" class="btn btn-red">Join in one of the tiers today</a>
+            <a href="https://www.patreon.com/sEbi3" target="_blank" class="btn btn-red">Join in one of the tiers today <i style="color:white;" class="fas fa-arrow-circle-right"></i></a>
           </div>
          </div>
       </div>
@@ -136,6 +158,7 @@
             <a href="https://discord.gg/4pnAXKC" target="_blank"><i class="fab fa-discord"></i></a>
             <a href="https://twitter.com/sEbi3Dev" target="_blank"><i class="fab fa-twitter"></i></a>
             <a href="https://www.patreon.com/sEbi3" target="_blank"><i class="fab fa-patreon"></i></a>
+            <a href="https://steamcommunity.com/id/sEbi3" target="_blank"><i class="fab fa-steam"></i></a>
           </div>
           <div class="col-md-6 col-xs-12">
             <small>Copyright &copy; sEbi3 2021</small>
