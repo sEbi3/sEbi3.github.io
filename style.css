@@ -38,6 +38,42 @@ section {
 	padding: 100px 0px;
 }
 
+code {
+    padding: 2px 4px;
+    font-size: 90%;
+    color: #c7254e;
+    background-color: #f9f2f4;
+    border-radius: 4px;
+}
+
+.alert {
+    padding: 15px;
+    margin-bottom: 20px;
+    border: 1px solid transparent;
+    border-radius: 4px;
+}
+
+.alert-danger {
+    background-color: #f2dede;
+    border-color: #ebccd1;
+    color: #a94442;
+}
+
+.alert-info {
+    background-color: #BDE5F8;
+    border-color: #BDE5F8;
+    color: #00529B;
+}
+
+code, kbd, pre, samp {
+    font-family: monospace, monospace;
+    font-size: 1em;
+}
+
+code, kbd, pre, samp {
+    font-family: Menlo, Monaco, Consolas, "Courier New", monospace;
+}
+
 .title-block {
 	max-width: 700px;
 	margin-left: auto;
@@ -417,7 +453,7 @@ section {
 }
 
 #AboutDownloadBox2 p {
-  	font-size: 16.5px;
+  	font-size: 18.5px;
     font-weight: 300;
     color: #8da2b5;
     margin-bottom: 0px;
