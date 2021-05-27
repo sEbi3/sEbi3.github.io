@@ -318,6 +318,64 @@ code, kbd, pre, samp {
   letter-spacing: .05em;
 }
 
+#HeaderBox3 {
+	background-image: url('images/Wallpaper3.png');
+}
+
+#HeaderBox3 h1 {
+	font-size: 50px;
+	font-weight: 300;
+	color: #FFFFFF;
+}
+
+#HeaderBox3 p {
+	font-size: 20px;
+  font-weight: 300;
+  color: #FFFFFF;
+}
+
+#HeaderBox3 small {
+	font-size: 14px;
+  font-weight: 300;
+  color: #FFFFFF;
+}
+
+#HeaderBox3 span {
+	font-weight: 400;
+  color: #0095f7;
+  text-transform: uppercase;
+  letter-spacing: .05em;
+}
+
+#HeaderBox4 {
+	background-image: url('images/Wallpaper4.png');
+}
+
+#HeaderBox4 h1 {
+	font-size: 50px;
+	font-weight: 300;
+	color: #FFFFFF;
+}
+
+#HeaderBox4 p {
+	font-size: 20px;
+  font-weight: 300;
+  color: #FFFFFF;
+}
+
+#HeaderBox4 small {
+	font-size: 14px;
+  font-weight: 300;
+  color: #FFFFFF;
+}
+
+#HeaderBox4 span {
+	font-weight: 400;
+  color: #0095f7;
+  text-transform: uppercase;
+  letter-spacing: .05em;
+}
+
 #HeaderBoxForDownloads {
 	background-image: url('images/Wallpaper2.png');
 }
@@ -347,10 +405,19 @@ code, kbd, pre, samp {
   letter-spacing: .05em;
 }
 
+#AtariBotPreviewBox {
+	background-color: #292c31;
+}
+
+#AtariBotPreviewBox h2 {
+	color: white;
+
+}
+
 #AtariBotPreviewBox p {
   	font-size: 16.5px;
     font-weight: 300;
-    color: #8da2b5;
+    color: white;
     margin-bottom: 0px;
     padding: 0px;
 }
@@ -368,6 +435,7 @@ code, kbd, pre, samp {
 
 #PatreonBox {
 	background-color: #EFF1F0;
+	
 }
 
 #AboutBox {
@@ -399,7 +467,7 @@ code, kbd, pre, samp {
 }
 
 .AboutBox-title-block p {
-	font-size: 18px;
+	font-size: 19px;
 	font-weight: 300;
 	color: #8da2b5;
 	margin-bottom: 0px;
@@ -433,6 +501,8 @@ code, kbd, pre, samp {
     padding: 0px;
 }
 
+
+
 #AboutDownloadBox span {
 	font-weight: 400;
 	color: #0095f7;
@@ -453,12 +523,13 @@ code, kbd, pre, samp {
 }
 
 #AboutDownloadBox2 p {
-  	font-size: 18.5px;
+  	font-size: 16.5px;
     font-weight: 300;
     color: #8da2b5;
     margin-bottom: 0px;
     padding: 0px;
 }
+
 
 #AboutDownloadBox2 span {
 	font-weight: 400;
